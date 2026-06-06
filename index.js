@@ -421,7 +421,7 @@ function createBot() {
       // Attempt creative mode (only works if bot has OP)
       setTimeout(() => {
         if (bot && botState.connected) {
-          bot.chat('/gamemode creative');
+          bot.chat('/vanish');
           console.log('[INFO] Attempted to set creative mode (requires OP)');
         }
       }, 3000);
